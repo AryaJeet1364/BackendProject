@@ -2,14 +2,19 @@
   "name": "backendprojcandc",
   "version": "1.0.0",
   "description": "A backend project from Chai aur Code by Hitesh for Revision of Production Grade Backend Development",
+  "type": "module",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon src/index.js"
   },
   "keywords": [
     "javascript",
     "backend"
   ],
   "author": "Aryajeet Jha",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
 }
